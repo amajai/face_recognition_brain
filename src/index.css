@@ -6,8 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #134E5E;
+  background: -webkit-linear-gradient(to left, #71B280, #134E5E);
+  background: linear-gradient(to left, #71B280, #134E5E);
 }
-
+button{
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
